@@ -1,0 +1,29 @@
+# Archivos de log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencias
+/node_modules
+
+# Salida de la compilación de Vite
+/dist
+
+# Cache de Vite
+.vite
+
+# Archivos de variables de entorno
+# No subas archivos .env que contengan secretos o claves de API
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración de editores e IDEs
+.idea/
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
