@@ -1,0 +1,31 @@
+/* Page Welcome */
+.welcome__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Opcional: para centrar el título si el contenedor es más ancho */
+    align-items: center;
+    margin: 115px 0 0 0;
+
+}
+.welcome__title{
+    color: var(--color-B);
+    margin: 0;
+    font-family: var(--font);
+    text-align: center; /* Centra el texto de cada línea */
+    font-size: 80px;
+    font-weight: 700;
+    color:  #5f95e7;
+}
+
+.welcome__title .title-word {
+    display: block; /* Hace que cada span ocupe una línea nueva */
+}
+.welcome__title .colored {
+    color: var(--color-N); /* Aplica el color oscuro a la palabra "Papel" */
+}
+.welcome__container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

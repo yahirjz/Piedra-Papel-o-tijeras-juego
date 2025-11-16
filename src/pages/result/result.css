@@ -1,0 +1,45 @@
+.result-page{
+    height: 100vh;
+    background-color: #131342;
+    font-family: var(--font);
+    color: #fff;
+}
+.result-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 60px;
+    
+}
+
+.result-page-title{
+    margin-bottom: 10px;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.result-page-paragran{
+    font-family: var(--font);
+    font-size: 23px;
+    font-weight: 500;
+    color: red;
+    margin-bottom: 35px;
+}
+.result-page-paragran > span{
+    padding: 0 5px;
+    color: #fff;
+    font-size: 30px;
+}
+.result-page-section{
+    font-size: 23px;
+    margin: 30px 0;
+}
+.result-page-section > span{
+    padding: 0 10px;
+}
+.result-page-result{
+    margin:20px 0;
+    font-size: 23px;
+}

@@ -1,0 +1,29 @@
+.inicio__container{
+    /* height: 100vh; le dice al contenedor que ocupe el 100% de la altura de la ventana del navegador. */
+    height: 100vh;
+    background-color: #131342;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Cambiamos para distribuir el espacio */
+    align-items: center;
+   
+}
+.inicio__paragraph{
+    color:#fff;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 40px;
+    width: 50%;
+    margin:100px 0 0 0;
+}
+.hands-container {
+    display: flex;
+    gap: 20px; 
+    padding-bottom: 20px; 
+}
+
+.inicio-hand-img {
+    width: 100px; 
+    height: auto;
+   
+}
